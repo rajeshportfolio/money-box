@@ -738,3 +738,10 @@ footer.footer .copyright{
 .dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.earn-while,
+.banner{
+    max-width: 1520px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
