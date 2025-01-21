@@ -4,6 +4,7 @@ body{
     color: #333333;
     line-height: normal;
     font-weight: 400;
+    background: #FAFAFA;
 }
 
 img{
@@ -221,6 +222,9 @@ h4{
 }
 
 /* Header CSS Start */
+.header{
+    background: #fff;
+}
 .header .top-header a.logo img {
     max-width: 150px;
 }
@@ -300,9 +304,93 @@ h4{
     z-index: 10;
 }
 
+
+.owl-theme .owl-nav button {
+    background: #268DE7 !important;
+    color: #fff !important;
+    border: none !important;
+    width: 45px;
+    height: 45px;
+    margin: 0 !important;
+    border-radius: 50% !important;
+}
+
+.owl-theme .owl-nav .owl-prev,
+.owl-theme .owl-nav .owl-next{
+    position: absolute;
+    top: 55%;
+    margin: 0;
+    left: -23px;
+}
+
+.owl-theme .owl-nav .owl-next{
+    right: -23px;
+    left: auto;
+}
+
+.owl-carousel-TopDeals .owl-nav.disabled{
+    display: block !important;
+}
+
+.dropdown_profile_custom .dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown_profile_custom .cashback-card{
+    margin: 0 15px;
+}
+
+.dropdown_profile_custom h2.user-name {
+    margin: 0;
+    color: #333333;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 15px 15px;
+}
+
+.dropdown_profile_custom .dropdown-menu.show {
+    min-width: 400px;
+    box-shadow: 0 8px 20px 0 rgba(64, 72, 90, .239);
+    border: 0;
+    border-radius: 15px;
+    padding: 0;
+}
+
+.dropdown_profile_custom .dropdown-menu.show .dropdown-height{
+    height: 500px;
+    overflow-y: auto;
+}
+
+.dropdown_profile_custom .dropdown-item{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.dropdown_profile_custom .dropdown-item:hover{
+    background: #268DE7;
+    color: #fff;
+}
+
+
+.dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar-thumb {
+    background: rgba(38, 141, 231, 0.50);
+}
+
+.dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .user-profile{
-    width: 48px;
-    height: 48px;
+    width: 46px;
+    height: 46px;
     border-radius: 50%;
 }
 
@@ -656,92 +744,186 @@ footer.footer .copyright{
 /* Footer Section CSS End */
 
 
-.owl-theme .owl-nav button {
-    background: #268DE7 !important;
-    color: #fff !important;
-    border: none !important;
-    width: 45px;
-    height: 45px;
-    margin: 0 !important;
-    border-radius: 50% !important;
-}
-
-.owl-theme .owl-nav .owl-prev,
-.owl-theme .owl-nav .owl-next{
-    position: absolute;
-    top: 55%;
-    margin: 0;
-    left: -23px;
-}
-
-.owl-theme .owl-nav .owl-next{
-    right: -23px;
-    left: auto;
-}
-
-.owl-carousel-TopDeals .owl-nav.disabled{
-    display: block !important;
-}
-
-.dropdown_profile_custom .dropdown-toggle::after{
-    display: none;
-}
-
-.dropdown_profile_custom .cashback-card{
-    margin: 0 15px;
-}
-
-.dropdown_profile_custom h2.user-name {
-    margin: 0;
-    color: #333333;
-    font-weight: 600;
-    font-size: 24px;
-    padding: 15px 15px;
-}
-
-.dropdown_profile_custom .dropdown-menu.show {
-    min-width: 400px;
-    box-shadow: 0 8px 20px 0 rgba(64, 72, 90, .239);
-    border: 0;
-    border-radius: 15px;
-    padding: 0;
-}
-
-.dropdown_profile_custom .dropdown-menu.show .dropdown-height{
-    height: 500px;
-    overflow-y: auto;
-}
-
-.dropdown_profile_custom .dropdown-item{
-    font-size: 14px;
-    padding: 10px 15px;
-}
-
-.dropdown_profile_custom .dropdown-item:hover{
-    background: #268DE7;
-    color: #fff;
-}
-
-
-.dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar {
-    width: 8px;
-}
-
-.dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-.dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar-thumb {
-    background: rgba(38, 141, 231, 0.50);
-}
-
-.dropdown_profile_custom .dropdown-menu.show .dropdown-height::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
+.banner-about,
 .earn-while,
 .banner{
     max-width: 1520px;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+
+/* About Us Section CSS Start */
+.about-us{
+    padding: 64px 0 0;
+}
+
+.banner-about{
+    background: url(../image/about-banner.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0 140px;
+    border-radius: 50px;
+}
+
+.banner-about .about-heading{
+    max-width: 500px;
+    margin: 0 auto 0 0;
+}
+
+.banner-about .about-heading h2{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+/* About Us Section CSS End */
+
+/* Timeline Section CSS Start */
+.timeline-section{
+    padding: 110px 0 80px;
+}
+
+.timeline-section .heading-section{
+    margin-bottom: 30px;
+}
+
+.timeline .timeline-left,
+.timeline .timeline-right{
+    padding: 50px 0;
+}
+
+.timeline .timeline-date {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+    color: #268DE7;
+}
+
+.timeline .row.timeline-right .timeline-date{
+    text-align: right;
+    padding-right: 50px;
+}
+
+.timeline .row.timeline-left .timeline-date{
+    text-align: left;
+    padding-left: 50px;
+}
+
+
+.timeline .timeline-date::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 12px;
+    background: linear-gradient(0deg, rgba(38,141,231,1) 0%, rgba(58,164,255,1) 100%);
+    border-radius: 50px;
+    z-index: 1;
+  }
+
+  .timeline .row.timeline-left .timeline-date::after {
+    left: -22px;
+  }
+
+  .timeline .row.timeline-right .timeline-date::after {
+    right: -20px;
+  }
+
+  .timeline .timeline-right .timeline-box .timeline-text {
+    position: relative;
+    max-width: 580px;
+    padding-left: 100px;
+    text-align: left;
+  }
+
+  .timeline .timeline-left .timeline-box .timeline-text {
+    position: relative;
+    max-width: 580px;
+    padding-right: 100px;
+    text-align: right;
+    margin: 0 0 0 auto;
+  }
+
+  .timeline .timeline-text h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.timeline .timeline-text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #666666;
+}
+
+.timeline .timeline-continue {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.timeline .timeline-continue::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: calc(100% - 80px);
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    background: #268DE7;
+}
+
+.timeline .timeline-left:last-child, 
+.timeline .timeline-right:last-child{
+    padding-bottom: 0;
+}
+
+.timeline .timeline-box{
+    position: relative;
+}
+
+.timeline .timeline-box:after {
+    top: 20px;
+    left: 5px;
+}
+
+.timeline .timeline-box::before {
+    top: 16px;
+    left: 65px;
+}
+
+.timeline .timeline-left .timeline-box:after {
+    top: 20px;
+    left: auto;
+    right: 5px;
+}
+
+.timeline  .timeline-left .timeline-box::before {
+    top: 16px;
+    left: auto;
+    right: 65px;
+}
+
+.timeline .timeline-left .timeline-box::after,
+.timeline .timeline-right .timeline-box::after{
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: #666666;
+}
+
+.timeline .timeline-left .timeline-box::before ,
+.timeline .timeline-right .timeline-box::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #666666;
+    border-radius: 20px;
+}
+/* Timeline Section CSS End */
