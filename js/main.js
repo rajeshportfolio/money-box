@@ -104,4 +104,16 @@ $(document).ready(function () {
             }
         }
     });
+
+
+    $(".filter-drop").click(function () {
+        if ($(".drop-filter-down").hasClass("d-none")) {
+            $(".drop-filter-down").removeClass("d-none").hide().fadeIn();
+        } else {
+            $(".drop-filter-down").fadeOut(function () {
+                $(this).addClass("d-none");
+            });
+        }
+    });
+    
 });

@@ -11,6 +11,14 @@
         right: -10px;
         left: auto;
     }
+
+    .shops-baner img {
+        max-width: 780px;
+    }
+
+    .shops-baner h1 {
+        font-size: 46px;
+    }    
 }
 
 @media (max-width: 1199.98px) {
@@ -110,6 +118,43 @@
 
     .feedback .feedback-inner{
         padding: 30px;
+    }
+
+    .shops-baner img {
+        max-width: 630px;
+    }
+
+    .shops-baner {
+        padding: 45px 0;
+    }
+
+    .shops-baner h1 {
+        font-size: 35px;
+    }
+
+    .shops-baner .btn-custom {
+        margin: 20px 0 14px;
+    }
+
+    .all-stores .search-bar input{
+        padding: 12px 25px;
+    }
+
+    .all-stores .shop-page .col-md-9 {
+        padding-left: 20px;
+    }
+
+    .pagination {
+        padding-top: 60px;
+    }
+
+    .pagination .page-link{
+        width: 54px;
+        height: 54px;
+    }
+
+    .all-stores {
+        padding-bottom: 60px;
     }
 }
 
@@ -224,6 +269,34 @@
 
     .timeline .timeline-continue::after{
         height: calc(100% - 110px);
+    }
+
+    .shops-baner img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .all-stores .search-bar input {
+        max-width: 400px;
+    }
+
+    .all-stores .featured .badge.bg-primary {
+        margin: 6px 6px 0 0;
+        padding: 2px 5px;
+    }
+
+    .all-stores .shop-page .col-md-9 {
+        padding-left: 12px;
+    }
+
+    .all-stores .featured .featured-inner h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .shops-baner img{
+        position: relative !important;
+        transform:none !important
     }
 
     footer.footer .newsletter p, footer.footer .newsletter h2 {
@@ -463,7 +536,6 @@
         padding-left: 20px;
     }
 
-   
 
     .timeline .timeline-text h3 {
         font-size: 18px;
@@ -484,6 +556,48 @@
 
     .timeline .row.timeline-left .timeline-date::after {
         left: -10px;
+    }
+
+    .shops-baner {
+        padding: 25px 0 45px;
+    }
+
+    .shops-baner h5{
+        font-size: 18px;
+    }
+
+    .shops-baner .heading-section{
+        margin: 0;
+    }
+
+    .shops-baner h1 {
+        font-size: 25px;
+    }
+
+    .all-stores .search-bar input {
+        max-width: 100%;
+    }
+
+    .all-stores .shop-list li {
+        padding: 12px 0;
+    }
+
+    .pagination {
+        padding-top: 30px;
+    }
+
+    .all-stores {
+        padding-bottom: 30px;
+    }
+
+    .all-stores .shop-page {
+        margin-top: 25px;
+    }
+
+    .pagination .page-link {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
     }
 
     footer.footer .footer-inner .logo img {

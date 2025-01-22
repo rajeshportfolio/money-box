@@ -165,6 +165,13 @@ h4{
     color: #268DE7;
 }
 
+h5 {
+    color: #333333;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 
 
 @font-face {
@@ -743,7 +750,7 @@ footer.footer .copyright{
 }
 /* Footer Section CSS End */
 
-
+.shops-baner,
 .banner-about,
 .earn-while,
 .banner{
@@ -927,3 +934,145 @@ footer.footer .copyright{
     border-radius: 20px;
 }
 /* Timeline Section CSS End */
+
+
+/* Shops Baner Section CSS Start */
+.shops-baner{
+    padding: 65px 0;
+}
+
+.shops-baner p.fw-medium {
+    font-weight: 500;
+}
+
+.shops-baner .btn-custom{
+    margin: 32px 0 24px;
+}
+
+.shops-baner .small-text {
+    font-size: 12px;
+    color: #666666;
+    font-weight: 300;
+}
+
+.shops-baner img{
+    max-width: 900px;
+    border-radius: 13px;
+}
+/* Shops Baner Section CSS End */
+
+/* All Stores Section CSS Start */
+.all-stores{
+    padding-bottom: 92px;
+}
+.all-stores .search-bar input {
+    max-width: 495px;
+    margin-left: auto;
+    border-radius: 50px;
+    border-color: #268DE7;
+    background: #FAFAFA;
+    padding: 16px 32px;
+}
+
+.all-stores .search-bar input::placeholder{
+    color: #268DE7;
+}
+
+.all-stores .search-bar input ~ button{
+    margin-right: 32px;
+}
+
+.all-stores .shop-page{
+    margin-top: 45px;
+}
+
+.all-stores .shop-list{
+    list-style: none;
+}
+
+.all-stores .shop-list li{
+    padding: 16px 0;
+    border-bottom: 1px solid #666666;
+}
+
+.all-stores .shop-list li .active{
+    font-weight: 700;
+    color: #333333;
+}
+
+.all-stores .shop-list h6 {
+    color: #3394E8;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.all-stores .featured .featured-inner h3{
+    font-weight: 500;
+}
+
+.all-stores .featured .featured-inner {
+    margin-bottom: 14px;
+}
+
+.all-stores .shop-page .col-md-9{
+    padding-left: 50px;
+}
+
+.all-stores .filter-drop {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #268DE7;
+    color: #268DE7;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.all-stores .featured .featured-inner img{
+    width: 100%;
+}
+
+.pagination{
+    padding-top: 100px;
+}
+
+.pagination .page-link {
+    padding: 0;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    color: #666666;
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pagination a.page-link:hover {
+    color: #268DE7;
+}
+
+.pagination .page-link.active{
+    color: #268DE7;
+}
+
+.pagination .page-link.pagination-btn{
+    color: #268DE7;
+    border-radius: 100%;
+    border: 1PX solid #268DE7;
+}
+
+.pagination .page-link.pagination-btn:hover{
+    color: #fff;
+    background: #268DE7;
+}
+
+.pagination .page-link:focus{
+    box-shadow: none;
+}
+
+/* All Stores Section CSS End */
