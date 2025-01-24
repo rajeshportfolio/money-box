@@ -299,6 +299,10 @@
         transform:none !important
     }
 
+    .marketplaces-banner .heading-section{
+        padding-left: 0;
+    }
+
     footer.footer .newsletter p, footer.footer .newsletter h2 {
         margin-bottom: 20px;
     }
@@ -598,6 +602,58 @@
         width: 40px;
         height: 40px;
         font-size: 14px;
+    }
+
+    .marketplaces-banner{
+        padding-bottom: 30px;
+    }
+
+    .marketplaces-banner .market-row{
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .marketplaces-banner p.fw-medium{
+        padding-top: 8px;
+    }
+
+    .marketplaces-banner .btn-custom {
+        margin: 10px 0;
+    }
+
+    .marketplaces-banner img{
+        margin-top: 12px;
+    }
+
+    .marketplaces-flash h2 {
+        margin-bottom: 15px;
+    }
+
+    .marketplaces-flash .featured-inner p.des {
+        font-size: 12px;
+        padding: 8px 0 4px;
+        line-height: 1.3;
+    }
+
+    .marketplaces-flash .featured-inner h3 {
+        line-height: 24px;
+    }
+
+    .gift-card-banner {
+        padding: 20px 0;
+    }
+
+    .gift-card-slider{
+        padding-top: 20px;
+    }
+
+    .featured.gift-cards.all-gift-cards {
+        padding: 20px 0 30px;
+    }
+
+    span.text-discount {
+        padding: 2px 4px;
+        font-size: 10px;
     }
 
     footer.footer .footer-inner .logo img {

@@ -43,6 +43,28 @@ $(document).ready(function () {
         }
     });
 
+    $(".owl-carousel-marketplaces-flash").owlCarousel({
+        loop: true,
+        margin: 24,
+        nav: false,
+        dots: false,
+        items: 4,
+        responsive : {
+            0 : {
+                items: 2,
+                margin: 16,
+            },
+            768 : {
+                items: 3,
+                margin: 24,
+            },
+            992 : {
+                items: 4,
+                margin: 24,
+            }
+        }
+    });
+
     $(".owl-carousel-popularbrands").owlCarousel({
         loop: true,
         margin: 16,

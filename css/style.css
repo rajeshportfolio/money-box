@@ -493,6 +493,10 @@ h5 {
     margin: 0;
 }
 
+.featured .featured-inner img{
+    width: 100%;
+}
+
 .last-des{
     font-size: 14px;
     font-weight: 300;
@@ -760,7 +764,7 @@ footer.footer .copyright{
 }
 
 
-/* About Us Section CSS Start */
+/* About Us Page CSS Start */
 .about-us{
     padding: 64px 0 0;
 }
@@ -782,7 +786,7 @@ footer.footer .copyright{
     font-size: 60px;
     margin-bottom: 40px;
 }
-/* About Us Section CSS End */
+/* About Us Page CSS End */
 
 /* Timeline Section CSS Start */
 .timeline-section{
@@ -961,7 +965,7 @@ footer.footer .copyright{
 }
 /* Shops Baner Section CSS End */
 
-/* All Stores Section CSS Start */
+/* All Stores Page CSS Start */
 .all-stores{
     padding-bottom: 92px;
 }
@@ -1032,7 +1036,116 @@ footer.footer .copyright{
 .all-stores .featured .featured-inner img{
     width: 100%;
 }
+/* All Stores Page CSS End */
 
+/* Marketplaces Page CSS Start */
+.marketplaces-banner{
+    padding: 40px 0 57px;
+}
+
+.marketplaces-banner .market-row{
+    background: #fff;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.marketplaces-banner .heading-section{
+    padding: 0 10px 0 40px;
+    margin-bottom: 0;
+}
+
+.marketplaces-banner h5{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.marketplaces-banner h1{
+    color: #F6A317;
+}
+
+.marketplaces-banner h6{
+    color: #F6A317;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.marketplaces-banner p.fw-medium{
+    color: #666666;
+    padding-top: 15px;
+}
+
+.marketplaces-banner .small-text{
+    color: #333333;
+}
+
+.marketplaces-banner .btn-custom {
+    margin: 16px 0 32px;
+}
+
+.marketplaces-flash h2{
+    margin-bottom: 40px;
+}
+
+.marketplaces-flash .featured-inner p.title{
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.marketplaces-flash .featured-inner p.des {
+    font-size: 14px;
+    padding: 16px 0 4px;
+    margin: 0;
+}
+
+.marketplaces-flash .featured-inner {
+    margin-bottom: 34px;
+}
+
+.marketplaces-deals{
+    padding: 6px 0 46px;
+}
+
+span.text-discount {
+    background: rgb(38 141 231 / 10%);
+    padding: 2px 6px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* Marketplaces Page CSS End */
+
+/* Gift Card Page CSS Start */
+.gift-card-banner{
+    padding: 40px 0;
+}
+
+.gift-card-slider{
+    padding: 0 0 40px;
+}
+
+.gift-card-slider .discount {
+    font-size: 18px;
+    color: rgb(102 102 102 / 50%);
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.gift-card-slider .featured-inner {
+    margin-bottom: 34px;
+}
+
+.popular-gift-cards h3{
+    font-weight: 500;
+}
+
+.featured.gift-cards.all-gift-cards{
+    padding: 40px 0 56px;
+}
+/* Gift Card Page CSS End */
+
+/* Pagination CSS Start */
 .pagination{
     padding-top: 100px;
 }
@@ -1074,5 +1187,7 @@ footer.footer .copyright{
 .pagination .page-link:focus{
     box-shadow: none;
 }
+/* Pagination CSS End */
 
-/* All Stores Section CSS End */
+
+
