@@ -1145,6 +1145,166 @@ span.text-discount {
 }
 /* Gift Card Page CSS End */
 
+/* Gift Cards Details Page CSS Start */
+.gift-cards-details{
+    padding: 80px 0 40px;
+}
+
+.gift-cards-details .banner-thumb{
+    border-radius: 20px;
+}
+
+.gift-cards-details img{
+    width: 100%;
+}
+
+.gift-cards-details .gift-description-details,
+.gift-cards-details .gift-card-design{
+    padding-left: 50px;
+}
+
+.gift-cards-details h2{
+    font-weight: 600;
+    margin: 0;
+}
+
+.gift-cards-details .gift-card-design p{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.gift-cards-details .gift-card-design .rating {
+    border-bottom: 1px solid #000;
+    padding: 20px 0 40px;
+    margin-bottom: 40px;
+}
+
+.gift-cards-details .gift-card-design .rating img {
+    max-width: 27px;
+    margin-right: 4px;
+}
+
+.gift-cards-details .gift-card-design .rating p{
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.gift-cards-details .gift-card-design .rating p i{
+    padding-right: 10px;
+}
+
+.gift-cards-details h5{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.gift-cards-details .gift-card-design p.design{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gift-cards-details .gift-card-design p.design span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.gift-cards-details h6{
+    margin: 0 0 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.gift-cards-details .gift-description{
+    margin-top: 50px;
+}
+
+.gift-cards-details .gift-description p{
+    color: #666666;
+}
+
+.gift-cards-details .terms{
+    padding-top: 24px;
+}
+
+.gift-cards-details .gift-description .terms p{
+    font-size: 12px;
+    line-height: 1.85;
+}
+
+.gift-cards-details .gray-btn{
+    padding: 24px 0 20px;
+}
+
+.gift-cards-details .gray-btn .btn-custom {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(102 102 102 / 50%);
+    border: 3px solid rgb(102 102 102 / 50%);
+    padding: 12px 25px;
+}
+
+.gift-cards-details .gray-btn .btn-custom.active,
+.gift-cards-details .gray-btn .btn-custom:hover{
+    border-color: #268DE7;
+    color: #fff;
+    background: #268DE7;
+}
+
+.gift-cards-details .submit-btn{
+    margin-top: 37px;
+}
+
+.calender img{
+    max-width: 17px;
+    margin-right: 8px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.thumbnail-img {
+    margin: 22px 0 0;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.thumbnail-img img {
+    border-radius: 10px;
+}
+
+.thumbnail-img.active {
+    border: 3px solid #268DE7;
+    border-radius: 12px;
+}
+
+.box-bg {
+    margin-top: 16px;
+    background: rgba(102, 102, 102, 0.10);
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 60px;
+    border-radius: 50px;
+}
+
+.box-bg.total-cashback{
+    background: rgba(38, 141, 231, 0.10);
+    color: #3394E8;
+}
+
+.box-bg.total-cashback span span{
+    color: rgba(51, 51, 51, 0.50);
+    font-weight: 400;
+}
+/* Gift Cards Details Page CSS End */
+
 /* Pagination CSS Start */
 .pagination{
     padding-top: 100px;

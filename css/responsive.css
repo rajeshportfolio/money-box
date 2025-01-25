@@ -156,6 +156,35 @@
     .all-stores {
         padding-bottom: 60px;
     }
+    .gift-cards-details{
+        padding: 30px 0;
+    }
+
+    .gift-cards-details .gift-description-details, .gift-cards-details .gift-card-design{
+        padding-left: 30px;
+    }
+
+    .gift-cards-details .gift-card-design .rating {
+        padding: 10px 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .gift-cards-details h5{
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .gift-cards-details .gift-description {
+        margin-top: 30px;
+    }
+
+    .thumbnail-img{
+        margin-top: 15px;
+    }
+
+    .gift-cards-details .gray-btn .btn-custom{
+        padding: 12px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -301,6 +330,27 @@
 
     .marketplaces-banner .heading-section{
         padding-left: 0;
+    }
+
+    .gift-cards-details .gift-description-details, .gift-cards-details .gift-card-design {
+        padding-left: 12px;
+    }
+
+    .gift-cards-details .gift-card-design .rating img {
+        max-width: 20px;
+    }
+
+    .thumbnail-img{
+        padding: 5px;
+    }
+
+    .box-bg{
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+
+    .gift-cards-details .submit-btn {
+        margin-top: 20px;
     }
 
     footer.footer .newsletter p, footer.footer .newsletter h2 {
@@ -655,6 +705,74 @@
         padding: 2px 4px;
         font-size: 10px;
     }
+
+    .gift-cards-details .banner-thumb {
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .gift-cards-details .gift-card-design .rating p{
+        font-size: 12px;
+        padding-left: 8px;
+    }
+
+    .gift-cards-details .gift-card-design .rating img {
+        max-width: 18px;
+    }
+
+    .gift-cards-details h5 {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+
+    .gift-cards-details .gift-card-design p.design span,
+    .gift-cards-details .gift-card-design p.design {
+        font-size: 14px;
+    }
+
+    .thumbnail-img.active {
+        border: 1px solid #268DE7;
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+    .thumbnail-img {
+        padding: 4px;
+    }
+
+    .thumbnail-img img {
+        border-radius: 8px;
+    }
+
+    .gift-cards-details .gift-description {
+        margin-top: 15px;
+    }
+
+    .gift-cards-details .terms {
+        padding-top: 0;
+    }
+
+    .gift-cards-details h6 {
+        margin: 0 0 14px;
+    }    
+
+    .gift-cards-details .gray-btn{
+        flex-wrap: wrap;
+        padding: 12px 0;
+    }
+
+    .box-bg {
+        font-size: 12px;
+        padding: 12px 10px;
+        margin-top: 10px;
+    }
+
+    .gift-cards-details .gray-btn .btn-custom {
+        width: auto;
+        font-size: 14px;
+        border-width: 2px;
+    }
+
 
     footer.footer .footer-inner .logo img {
         max-width: 100px;
