@@ -353,6 +353,11 @@
         margin-top: 20px;
     }
 
+    .featured .featured-inner .col-md-5 .position-relative,
+    .featured .featured-inner .col-5 .position-relative{
+        min-height: 100px;
+    }
+
     footer.footer .newsletter p, footer.footer .newsletter h2 {
         margin-bottom: 20px;
     }
@@ -773,6 +778,14 @@
         border-width: 2px;
     }
 
+    .featured .featured-inner .col-5 .position-relative{
+        min-height: 80px;
+    }
+
+    .featured .featured-inner .col-4 .position-relative{
+        min-height: 60px;
+    }
+
 
     footer.footer .footer-inner .logo img {
         max-width: 100px;
@@ -848,5 +861,14 @@
 
     .header .top-header .search-bar{
         max-width: 100px;
+    }
+
+    .featured .featured-inner .col-md-5 .position-relative,
+    .featured .featured-inner .position-relative{
+        min-height: 80px;
+    }
+
+    .featured .featured-inner .col-4 .position-relative{
+        min-height: 70px;
     }
 }
