@@ -786,6 +786,10 @@
         min-height: 60px;
     }
 
+    .owl-carousel-TopDeals .top-deals-img{
+        min-height: 180px;
+    }
+
 
     footer.footer .footer-inner .logo img {
         max-width: 100px;

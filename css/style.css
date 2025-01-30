@@ -460,7 +460,7 @@ h5 {
     padding-bottom: 125px;
 }
 
-
+.owl-carousel-TopDeals .top-deals-img,
 .featured .featured-inner .position-relative {
     min-height: 120px;
     width: 100%;
@@ -469,16 +469,25 @@ h5 {
     aspect-ratio: 2 / 1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
     border-radius: 0.75rem;
-    border: 1px solid #efefef;
+    /* border: 1px solid #efefef; */
+    background: #fff;
+    position: relative;
 } 
 
 .featured .featured-inner .col-4 .position-relative{
     min-height: 80px;
 }
+
+.owl-carousel-TopDeals .top-deals-img,
 .featured .featured-inner .col-md-5 .position-relative {
     aspect-ratio: 3 / 2;
 }
 
+.owl-carousel-TopDeals .top-deals-img{
+    min-height: 220px;
+}
+
+.owl-carousel-TopDeals .top-deals-img img,
 .featured .featured-inner .position-relative img {
     position: absolute;
     height: 100%;
