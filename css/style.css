@@ -270,6 +270,7 @@ h5 {
     color: #666666;
     padding: 20px 0;
     white-space: nowrap;
+    display: flex;
 }
 
 .header .navbar-header .btn-custom{
