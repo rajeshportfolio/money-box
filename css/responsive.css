@@ -185,6 +185,10 @@
     .gift-cards-details .gray-btn .btn-custom{
         padding: 12px;
     }
+
+    .how-it-works .how-it-works-inner{
+        margin: 0;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -356,6 +360,70 @@
     .featured .featured-inner .col-md-5 .position-relative,
     .featured .featured-inner .col-5 .position-relative{
         min-height: 100px;
+    }
+
+    .new-customers{
+        padding: 60px 0 25px;
+    }
+
+    .new-customers h2{
+        margin-bottom: 25px;
+    }
+
+    .advertise-about a{
+        margin-top: 25px;
+    }
+
+    .advertise-join h2 {
+        font-size: 30px;
+    }
+
+    .advertise-join p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .advertise-join .banner-section {
+        max-width: 400px;
+    }
+
+    .new-customers p,
+    .advertise-about p{
+        font-size: 16px;
+    }
+
+    .company-details h2.heading,
+    .how-it-works h2.heading {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .how-it-works .how-it-works-inner img{
+        max-width: 100px;
+    }
+
+    .how-it-works .how-it-works-bottom {
+        margin-top: 70px;
+    }
+
+    .how-it-works .how-it-works-bottom img{
+        left: 0;
+    }
+
+    .how-it-works .how-it-works-inner{
+        padding: 25px 15px;
+    }
+
+    .how-it-works .how-it-works-inner p{
+        font-size: 14px;
+    }
+
+    .how-it-works .how-it-works-inner h2 {
+        margin: 20px 0 15px;
+    }
+
+    .how-it-works .how-it-works-bottom a{
+        margin-top: 20px;
     }
 
     footer.footer .newsletter p, footer.footer .newsletter h2 {
@@ -789,6 +857,44 @@
     .owl-carousel-TopDeals .top-deals-img{
         min-height: 180px;
     }
+
+    .advertise-join{
+        background-image: none;
+        padding: 50px 0;
+    }
+
+    .advertise-about{
+        padding: 50px 0;
+    }
+
+    .advertise-about img{
+        padding-bottom: 25px;
+    }
+
+    .how-it-works .how-it-works-inner,
+    .how-it-works .how-it-works-bottom img{
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .how-it-works{
+        padding-top: 60px;
+    }
+
+    .company-details h2.heading,
+    .how-it-works h2.heading {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .how-it-works .how-it-works-bottom {
+        margin-top: 30px;
+    }
+
+    .company-details {
+        padding: 60px 0;
+    }
+
 
 
     footer.footer .footer-inner .logo img {

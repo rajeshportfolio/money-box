@@ -137,5 +137,12 @@ $(document).ready(function () {
             });
         }
     });
+
+    const phoneInput = document.querySelector("#PhoneNumber");
+    window.intlTelInput(phoneInput, {
+        initialCountry: "in",  // Default to India
+        separateDialCode: true, // Show country code separately
+        preferredCountries: ["us", "gb", "in", "au", "ca"], // Preferred countries
+    });
     
 });

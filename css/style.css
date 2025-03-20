@@ -789,6 +789,9 @@ footer.footer .copyright{
 }
 /* Footer Section CSS End */
 
+.how-it-works,
+.advertise-join,
+.advertise-banner,
 .shops-baner,
 .banner-about,
 .earn-while,
@@ -1343,6 +1346,137 @@ span.text-discount {
 }
 /* Gift Cards Details Page CSS End */
 
+/* Advertise Page CSS Start */
+.new-customers{
+    padding: 125px 0 25px;
+    background: #fff;
+}
+
+.new-customers h2{
+    font-weight: 600;
+    margin-bottom: 56px;
+}
+
+.new-customers p{
+    font-size: 20px;
+}
+
+.new-customers .heading-section{
+    max-width: 900px;
+}
+
+.advertise-about{
+    padding: 65px 0 100px;
+}
+
+.how-it-works .how-it-works-bottom .content,
+.advertise-about p,
+.advertise-about img{
+    max-width: 540px;
+}
+
+.advertise-about p{
+    font-size: 21px;
+}
+
+.advertise-about p span{
+    color: #268DE7;
+}
+
+.how-it-works .how-it-works-bottom a,
+.advertise-about a{
+    margin-top: 46px;
+}
+
+.advertise-join{
+    background-image: url(../image/advertise-join.png);
+    background-color: #268DE7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.advertise-join .banner-section{
+    margin: 0;
+    max-width: 550px;
+}
+
+.advertise-join h2{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.advertise-join h2{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.advertise-join p{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 56px;
+}
+
+.how-it-works .how-it-works-bottom .btn-white.btn-custom,
+.advertise-join .btn-white.btn-custom{
+    border-color: #fff;
+}
+
+.how-it-works{
+    background: #268DE7 url(../image/how-it-works-bg.png) no-repeat right;
+    background-size: cover;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.company-details h2.heading,
+.how-it-works h2.heading{
+    font-size: 48px;
+    margin-bottom: 70px;
+}
+
+.how-it-works .how-it-works-inner {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 40px 30px 20px;
+    margin: 0 20px;
+    height: 100%;
+}
+
+.how-it-works .how-it-works-inner img{
+    max-width: 140px;
+    margin: 0 auto;
+}
+
+.how-it-works .how-it-works-inner h2{
+    margin: 40px 0 24px;
+}
+
+.how-it-works .how-it-works-inner p{
+    font-size: 18px;
+}
+
+.how-it-works .how-it-works-bottom{
+    margin-top: 100px;
+}
+
+.how-it-works .how-it-works-bottom .content{
+    margin-bottom: 50px;
+}
+
+.how-it-works .how-it-works-bottom img{
+    left: -60px;
+}
+
+.company-details{
+    padding: 100px 0;
+}
+/* Advertise Page CSS End */
+
+
+
+
 /* Pagination CSS Start */
 .pagination{
     padding-top: 100px;
@@ -1386,6 +1520,43 @@ span.text-discount {
     box-shadow: none;
 }
 /* Pagination CSS End */
+
+.form-check-input{
+    background-color: #D1D1D6;
+    border: 0;
+    border-radius: 50% !important;
+    background-image: url(../image/check-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 0 0 1em;
+}
+
+.form-check-input:checked[type=checkbox]{
+    background-color: #268DE7;
+    border-color: #268DE7;
+    background-image: url(../image/check-icon.svg);
+}
+
+.iti{
+    width: 100%;
+}
+
+.iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag,
+.iti--separate-dial-code .iti__selected-flag{
+    background-color: transparent;
+}
+
+.iti__arrow{
+    width: 14px; 
+    height: 14px; 
+    display: inline-block;
+    border: 0; 
+    background-image: url(../image/select-down-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
 
 
 
