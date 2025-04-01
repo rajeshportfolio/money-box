@@ -426,6 +426,10 @@
         margin-top: 20px;
     }
 
+    .customer-img > img {
+        height: 300px;
+    }
+
     footer.footer .newsletter p, footer.footer .newsletter h2 {
         margin-bottom: 20px;
     }
@@ -892,9 +896,13 @@
     }
 
     .company-details {
-        padding: 60px 0;
+        padding: 60px 15px;
     }
 
+    .select2-container--default .select2-selection--multiple{
+        border-radius: 6px;
+        padding: 10px 18px;
+    }
 
 
     footer.footer .footer-inner .logo img {
