@@ -267,103 +267,208 @@
 
     <!-- Company Details Section Start -->
     <section class="company-details">
-        <div class="container">
-            <div class="inner-form">
-                <h2 class="text-center heading">Company Details</h2>
-                <form class="row g-lg-5 g-3">
-                    <div class="col-md-6">
-                        <label class="form-label" for="companyname">Company Name</label>
-                        <input type="text" class="form-control shadow-none" id="companyname"
-                            placeholder="Enter your company name">
+        <form>
+            <div class="container mt-3">
+                <div class="inner-form">
+                    <div class="form-heading-margin">
+                        <h2 class="text-center heading">Company Details</h2>
                     </div>
-                    <div class="col-md-6">
-                        <label class="form-label" for="tradingname">Trading Name</label>
-                        <input type="text" class="form-control shadow-none" id="tradingname"
-                            placeholder="Enter your trading name   ">
-                    </div>
-                    <div class="col-md-6">
-                        <label class="form-label" for="companyaddress">Address</label>
-                        <input type="text" class="form-control shadow-none" id="companyaddress"
-                            placeholder="Enter your company Address">
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <label class="form-label" for="CompanyType">Company Type</label>
-                        <select class="form-select form-control shadow-none">
-                            <option selected>Select type</option>
-                            <option value="1">Franchise</option>
-                            <option value="2">Company Owned</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row g-md-4 g-3">
-                            <div class="col-md-6">
-                                <label class="form-label" for="selectcategories">Sector Category</label>
-                                <select class="form-select form-control shadow-none" id="mySelect" multiple="multiple">
-                                    <option value="0">Select categories</option>
-                                    <option value="1">Home and Garden</option>
-                                    <option value="2">Sports and Outdoors</option>
-                                    <option value="3">Holiday and Travel</option>
-                                    <option value="4">Fashion</option>
-                                    <option value="5">Entertainment</option>
-                                    <option value="6">Electronics</option>
-                                    <option value="7">Daily Deals</option>
-                                    <option value="8">Beauty and Health</option>
-                                    <option value="9">Auto</option>
-                                    <option value="10">Alcohol</option>
-                                    <option value="11">Pets</option>
-                                    <option value="12">Kids</option>
-                                </select>
+                    <div class="row g-lg-5 g-3">
+                        <div class="col-md-6">
+                            <label class="form-label" for="companyname">Company Name</label>
+                            <input type="text" class="form-control shadow-none" id="companyname"
+                                placeholder="Enter your company name">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="tradingname">Trading Name</label>
+                            <input type="text" class="form-control shadow-none" id="tradingname"
+                                placeholder="Enter your trading name   ">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="Description">Description</label>
+                                <textarea class="form-control shadow-none" id="Description" placeholder="Enter a short description about the company:" rows="7"></textarea>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="row g-lg-5 g-3">
+                                <div class="col-12">
+                                    <label class="form-label" for="companyaddress">Address</label>
+                                    <input type="text" class="form-control shadow-none" id="companyaddress"
+                                        placeholder="Enter your company Address">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" for="CompanyType">Company Type</label>
+                                    <select class="form-select form-control shadow-none custom-select2" id="selectType">
+                                        <option></option>
+                                        <option value="1">Franchise</option>
+                                        <option value="2">Company Owned</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="col-md-6">
-                                <label class="form-label" for="PhoneNumber">Phone Number</label>
-                                <div class="phone-container">
-                                    <input type="tel" class="form-control shadow-none" id="PhoneNumber"
-                                        placeholder="phone Number">
+                        </div>
+    
+                        <div class="col-lg-6">
+                            <div class="row g-md-4 g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label" for="selectcategories">Sector Category</label>
+                                    <select class="form-select form-control shadow-none" id="mySelect" multiple="multiple">
+                                        <option>Home and Garden</option>
+                                        <option>Sports and Outdoors</option>
+                                        <option>Holiday and Travel</option>
+                                        <option>Fashion</option>
+                                        <option>Entertainment</option>
+                                        <option>Electronics</option>
+                                        <option>Daily Deals</option>
+                                        <option>Beauty and Health</option>
+                                        <option>Auto</option>
+                                        <option >Alcohol</option>
+                                        <option >Pets</option>
+                                        <option >Kids</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" for="PhoneNumber">Phone Number</label>
+                                    <div class="phone-container">
+                                        <input type="tel" class="form-control shadow-none" id="PhoneNumber"
+                                            placeholder="phone Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="EmailAddress">Company Email Address</label>
+                            <input type="text" class="form-control shadow-none" id="EmailAddress"
+                                placeholder="Enter your email company address">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="WebsiteURL">Website URL</label>
+                            <input type="text" class="form-control shadow-none" id="WebsiteURL" placeholder="https://">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="ContactPerson">Contact Person</label>
+                            <input type="text" class="form-control shadow-none" id="ContactPerson"
+                                placeholder="Enter the full name of the contact person">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="Choose">Does your company have any other branches or
+                                franchises?</label>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <select class="form-select form-control shadow-none custom-select2" id="ChooseSelect">
+                                        <option></option>
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <label class="form-label" for="EmailAddress">Company Email Address</label>
-                        <input type="text" class="form-control shadow-none" id="EmailAddress"
-                            placeholder="Enter your email company address">
+                </div>
+            </div>
+            <div class="container mt-3 new-form-filds">
+                <div class="inner-form">
+                    <div class="form-heading-margin">
+                        <h2 class="text-center heading">Additional Branch/Franchise Details</h2>
+                        <p class="text-center">You can add all your stores by completing the form below or uploading a CSV or XLS file.</p>
                     </div>
-                    <div class="col-md-6">
-                        <label class="form-label" for="WebsiteURL">Website URL</label>
-                        <input type="text" class="form-control shadow-none" id="WebsiteURL" placeholder="https://">
-                    </div>
-                    <div class="col-md-6">
-                        <label class="form-label" for="ContactPerson">Contact Person</label>
-                        <input type="text" class="form-control shadow-none" id="ContactPerson"
-                            placeholder="Enter the full name of the contact person">
-                    </div>
-                    <div class="col-md-6">
-                        <label class="form-label" for="Choose">Does your company have any other branches or
-                            franchises?</label>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <select class="form-select form-control shadow-none">
-                                    <option selected>Choose</option>
-                                    <option value="1">Yes</option>
-                                    <option value="2">No</option>
-                                </select>
+                    <div class="row g-lg-5 g-3">
+                        <div class="col-12">
+                            <div class="text-center">
+                                <label for="uploadFile" class="form-label position-relative custom-upload-file">
+                                    <input type="file" id="uploadFile" class="form-control shadow-none position-absolute top-0 start-0 w-100 h-100 opacity-0">
+                                    <div class="d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-3">
+                                        <img src="image/upload-icon-file.png" width="46" height="46" alt=""/>
+                                        <div class="upload-text text-center">
+                                            <h3>Upload all stores data via XLS or CSV</h3>
+                                            <P>Download a sample CSV file. <a href="#">CLICK HERE</a></P>
+                                        </div>
+                                        <button>BROWSE FILE</button>
+                                    </div>
+                                </label>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 text-center">
-                        <div class="form-check d-flex justify-content-center gap-md-3 gap-2 mt-md-4 mt-3 text-start">
-                            <input class="form-check-input shadow-none" type="checkbox" value="" id="informationcheck">
-                            <label class="form-check-label" for="informationcheck">
-                                I hereby declare that the information provided is true and correct.
-                            </label>
+
+                        <div class="col-md-6">
+                            <label class="form-label" for="companyname">Company Name</label>
+                            <input type="text" class="form-control shadow-none" id="companyname"
+                                placeholder="Enter your company name">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="tradingname">Trading Name</label>
+                            <input type="text" class="form-control shadow-none" id="tradingname"
+                                placeholder="Enter your trading name   ">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="Description">Description</label>
+                                <textarea class="form-control shadow-none" id="Description" placeholder="Enter a short description about the company:" rows="7"></textarea>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="row g-lg-5 g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label" for="StoreLocationType">Store Location Type</label>
+                                    <select class="form-select form-control shadow-none custom-select2" id="StoreLocationType">
+                                        <option></option>
+                                        <option value="1">Shopping Centre</option>
+                                        <option value="2">Street address</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="StoreEmailAddress">Store Email Address</label>
+                                    <input type="text" class="form-control shadow-none" id="StoreEmailAddress"
+                                        placeholder="Enter your store email address">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label" for="StoreBranch">Store Branch/Franchise address</label>
+                            <input type="text" class="form-control shadow-none" id="StoreBranch"
+                                placeholder="Enter your store address">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="ContactPerson2">Contact Person</label>
+                            <input type="text" class="form-control shadow-none" id="ContactPerson2" placeholder="Enter the name of the store contact person">
+                        </div>
+    
+                        <div class="col-lg-6">
+                            <div class="row g-md-4 g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label" for="SelectStoreLocation">Select Store Location</label>
+                                    <input type="text" class="form-control shadow-none" id="SelectStoreLocation" placeholder="Location">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" for="PhoneNumbernew">Phone Number</label>
+                                    <div class="phone-container">
+                                        <input type="tel" class="form-control shadow-none" id="PhoneNumbernew"
+                                            placeholder="phone Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label" for="WebsiteURL2">Website URL</label>
+                            <input type="text" class="form-control shadow-none" id="WebsiteURL2" placeholder="https://">
+                        </div>
+
+                        
+                        <div class="col-12 text-center mt-md-5 mt-3">
+                            <button type="submit" class="my-md-3 my-2 btn btn-primary btn-custom">Add additional branch or franchise store</button>
+                            <div class="form-check d-flex justify-content-center align-items-center gap-2 mt-md-4 mt-3 text-start">
+                                <input class="form-check-input shadow-none" type="checkbox" value="" id="informationcheck">
+                                <label class="form-check-label" for="informationcheck">
+                                    I hereby declare that the information provided is true and correct.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-custom">Submit</button>
                         </div>
                     </div>
-                    <div class="col-12 text-center mt-4">
-                        <button type="submit" class="btn btn-primary btn-custom">Submit</button>
-                    </div>
-                </form>
+                </div>
             </div>
-        </div>
+        </form>
     </section>
     <!-- Company Details Section End -->
 
@@ -560,6 +665,25 @@
 
     <script>
         $(document).ready(function () {
+            $('.custom-select2').select2();
+
+            $('#selectType').select2({
+                placeholder: "Select Type",
+            });
+
+            $('#StoreLocationType').select2({
+                placeholder: "Select Type",
+            });
+
+            $('#ChooseSelect').select2({
+                placeholder: "Choose",
+            });
+
+         
+
+
+
+
             // Initialize Select2 with the placeholder
             $('#mySelect').select2({
                 placeholder: "Select categories", // Placeholder text

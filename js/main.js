@@ -141,7 +141,14 @@ $(document).ready(function () {
     const phoneInput = document.querySelector("#PhoneNumber");
     window.intlTelInput(phoneInput, {
         initialCountry: "in",  // Default to India
-        separateDialCode: true, // Show country code separately
+        separateDialCode: false, // Show country code separately
+        preferredCountries: ["us", "gb", "in", "au", "ca"], // Preferred countries
+    });
+
+    const phoneInputnew = document.querySelector("#PhoneNumbernew");
+    window.intlTelInput(phoneInputnew, {
+        initialCountry: "au",  // Default to India
+        separateDialCode: false, // Show country code separately
         preferredCountries: ["us", "gb", "in", "au", "ca"], // Preferred countries
     });
     

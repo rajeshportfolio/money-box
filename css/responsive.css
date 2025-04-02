@@ -398,6 +398,19 @@
         margin-bottom: 50px;
     }
 
+    .company-details .form-heading-margin h2.heading{
+        margin-bottom: 12px;
+    }
+
+    .company-details .form-heading-margin{
+        margin-bottom: 50px;
+        font-size: 35px;
+    }
+
+    .company-details .form-heading-margin h2{
+        margin-bottom: 50px;
+    }
+
     .how-it-works .how-it-works-inner img{
         max-width: 100px;
     }
@@ -881,6 +894,23 @@
         margin: 0 auto;
     }
 
+    .company-details .form-heading-margin{
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .company-details .form-heading-margin p{
+        font-size: 14px;
+    }
+
+    .custom-upload-file{
+        padding: 25px 10px;
+    }
+
+    .custom-upload-file button{
+        padding: 6px 10px;
+    }
+
     .how-it-works{
         padding-top: 60px;
     }
@@ -902,6 +932,27 @@
     .select2-container--default .select2-selection--multiple{
         border-radius: 6px;
         padding: 10px 18px;
+    }
+
+    .select2-results__option{
+        padding: 6px 18px;
+    }
+
+    .iti__selected-flag{
+        padding-left: 18px;
+    }
+
+    .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--multiple{
+        border-radius: 6px;
+        padding:6px 18px;
+    }
+
+    .select2-container--default.select2-container--focus .select2-selection--multiple{
+        padding:12px 18px;
+    }
+
+    .select2-container--default .select2-selection--single{
+        height: 42px;
     }
 
 
