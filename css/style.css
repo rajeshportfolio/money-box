@@ -1599,7 +1599,6 @@ span.text-discount {
     font-weight: 400;
     border-radius: 8px;
     padding: 10px 12px;
-    text-transform: uppercase;
 }
 
 .custom-upload-file input{max-width: 560px;}
